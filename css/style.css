@@ -1,0 +1,175 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+
+/****************************
+
+		Section 1 Css
+
+*****************************/
+
+
+
+.head{
+	background: #6600ee;
+}
+
+.nav{
+	padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left{
+	display: flex;
+}
+
+.left img{
+	width: 170px;
+	height: auto;
+	margin-right: 35px;
+}
+
+.left ul li a{
+	color: white;
+}
+
+.left ul li{
+	display: inline-block;
+	line-height: 2.7;
+	margin: 0px 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+
+
+}
+
+.right button{
+	background-color: #12b7cb;
+    border: none;
+    width: 94px;
+    height: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/****************************
+
+		Section 2 Css
+
+*****************************/
+.head2{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/lighthouse-g9cba67081_1920.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.nav2{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 150px;
+}
+
+.nav2 h1{
+	font-size: 52px;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+.nav2 p{
+	font-size: 26px;
+	color: white;
+	margin-right: 600px;
+	margin-bottom: 40px;
+	font-weight: 500;
+}
+
+.nav2 button{
+	background-color: #12b7cb;
+    border: none;
+    width: 170px;
+    height: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+/****************************
+
+		Section 3 Css
+
+*****************************/
+
+.mid{
+	margin-top: 70px;
+}
+
+.mid h3{
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+	color: #2e4057;
+	text-align: center;
+	font-weight: 600;
+}
+
+.nav3{
+	display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.fst h6,.sncd h6,.thrd h6{
+	text-align: center;
+    font-size: 16px;
+    background-color: #9013fe;
+    font-family: 'Roboto', sans-serif;
+    width: 370px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 9px 0px;
+    color: white;
+    font-weight: 600;
+}
+
+.yt{
+	font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.ty{
+	font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 0px;
+    font-weight: 500;
+}
+
+.thrd img{
+	width: 370px;
+}
